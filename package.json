@@ -1,0 +1,41 @@
+{
+  "name": "portal-utils",
+  "version": "0.0.1",
+  "description": "A JavaScript library to help with portal/ArcGIS Online tasks not handled by the JSAPI",
+  "main": "src/webMapUtils.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "\"grunt test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArcGIS/portal-utils.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-karma": "^0.10.1",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-dojo": "0.0.1",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-jasmine": "^0.3.5",
+    "karma-sinon": "^1.0.4",
+    "sinon": "^1.14.1"
+  },
+  "keywords": [
+    "ArcGIS",
+    "Portal",
+    "JavaScript"
+  ],
+  "author": "Tom Wayson <tom@tomwayson.com>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/ArcGIS/portal-utils/issues"
+  },
+  "homepage": "https://github.com/ArcGIS/portal-utils"
+}

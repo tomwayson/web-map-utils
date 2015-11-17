@@ -1,0 +1,1176 @@
+{
+  "operationalLayers": [{
+    "id": "Light_Rail_Lines_9545",
+    "layerType": "ArcGISFeatureLayer",
+    "url": "http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/Light_Rail_Lines/FeatureServer/0",
+    "visibility": true,
+    "opacity": 1,
+    "title": "Light Rail Lines",
+    "itemId": "4ffc1455bf854f9588e133349d0be551",
+    "layerDefinition": {
+      "minScale": 577791,
+      "maxScale": 0
+    },
+    "disablePopup": true
+  }, {
+    "id": "Bike_Routes_6389",
+    "layerType": "ArcGISFeatureLayer",
+    "url": "http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/Bike_Routes/FeatureServer/0",
+    "visibility": true,
+    "opacity": 1,
+    "title": "Bike Routes",
+    "itemId": "0f06d69afe4645ce99e07b3c40bf4b44",
+    "popupInfo": {
+      "title": "Street Route",
+      "fieldInfos": [{
+        "fieldName": "FID",
+        "label": "FID",
+        "isEditable": false,
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 0,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": false
+      }, {
+        "fieldName": "OBJECTID",
+        "label": "OBJECTID",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 0,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "PREFIX",
+        "label": "PREFIX",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "STREETNAME",
+        "label": "STREETNAME",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": true,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "FTYPE",
+        "label": "FTYPE",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "BIKEMODE",
+        "label": "BIKEMODE",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": true,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "Shape_Leng",
+        "label": "Shape_Leng",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 2,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }],
+      "description": null,
+      "showAttachments": true,
+      "mediaInfos": []
+    }
+  }, {
+    "id": "Bike_Paths_8950",
+    "layerType": "ArcGISFeatureLayer",
+    "url": "http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/Bike_Paths/FeatureServer/0",
+    "visibility": true,
+    "opacity": 1,
+    "title": "Bike Paths",
+    "itemId": "a95f680464e44de0a59821fd1f5cd1c6",
+    "layerDefinition": {
+      "minScale": 288896,
+      "maxScale": 0
+    },
+    "showLegend": false
+  }, {
+    "id": "Bike_Paths_2143",
+    "layerType": "ArcGISFeatureLayer",
+    "url": "http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/Bike_Paths/FeatureServer/0",
+    "visibility": true,
+    "opacity": 1,
+    "title": "Bike Paths",
+    "itemId": "a95f680464e44de0a59821fd1f5cd1c6",
+    "layerDefinition": {
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "BIKEMODE",
+          "uniqueValueInfos": [{
+            "value": "Bike boulevard",
+            "symbol": {
+              "color": [175, 238, 238, 191],
+              "width": 2,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "label": "Bike boulevard",
+            "description": null
+          }, {
+            "value": "Bike lane",
+            "symbol": {
+              "color": [135, 206, 250, 191],
+              "width": 2,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "label": "Bike lane",
+            "description": null
+          }, {
+            "value": "Local multi-use path",
+            "symbol": {
+              "color": [0, 139, 139, 191],
+              "width": 2,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "label": "Local multi-use path",
+            "description": null
+          }, {
+            "value": "Regional multi-use path",
+            "symbol": {
+              "color": [0, 139, 139, 191],
+              "width": 2,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            },
+            "label": "Regional multi-use path",
+            "description": null
+          }]
+        }
+      },
+      "minScale": 288896,
+      "maxScale": 0
+    },
+    "popupInfo": {
+      "title": "Paths and Lanes",
+      "fieldInfos": [{
+        "fieldName": "FID",
+        "label": "FID",
+        "isEditable": false,
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 0,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": false
+      }, {
+        "fieldName": "OBJECTID",
+        "label": "OBJECTID",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 0,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "PREFIX",
+        "label": "PREFIX",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "STREETNAME",
+        "label": "STREETNAME",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": true,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "FTYPE",
+        "label": "FTYPE",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "BIKEMODE",
+        "label": "BIKEMODE",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": true,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "Shape_Leng",
+        "label": "Shape_Leng",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 2,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }],
+      "description": null,
+      "showAttachments": true,
+      "mediaInfos": []
+    }
+  }, {
+    "id": "Light_Rail_Stops_6886",
+    "layerType": "ArcGISFeatureLayer",
+    "url": "http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/Light_Rail_Stops/FeatureServer/0",
+    "visibility": true,
+    "opacity": 1,
+    "title": "Light Rail Stops",
+    "itemId": "9b0cf93e10ad4bc899f71b26012724d2",
+    "layerDefinition": {
+      "minScale": 72224,
+      "maxScale": 0
+    },
+    "popupInfo": {
+      "title": "Rail Stop",
+      "fieldInfos": [{
+        "fieldName": "FID",
+        "label": "FID",
+        "isEditable": false,
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 0,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": false
+      }, {
+        "fieldName": "STATION",
+        "label": "STATION",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": true,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "STATUS",
+        "label": "STATUS",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "TYPE",
+        "label": "TYPE",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": true,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "LINE",
+        "label": "LINE",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": true,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }],
+      "description": null,
+      "showAttachments": true,
+      "mediaInfos": []
+    }
+  }, {
+    "id": "Bike_Parking_4640",
+    "layerType": "ArcGISFeatureLayer",
+    "url": "http://services.arcgis.com/uCXeTVveQzP4IIcx/arcgis/rest/services/Bike_Parking/FeatureServer/0",
+    "visibility": true,
+    "opacity": 1,
+    "title": "Bike Parking",
+    "itemId": "21013f2964334fae834e98602c60dd40",
+    "layerDefinition": {
+      "drawingInfo": {
+        "renderer": {
+          "type": "classBreaks",
+          "field": "NUMSPACES",
+          "minValue": 0,
+          "classBreakInfos": [{
+            "symbol": {
+              "color": [100, 149, 237, 64],
+              "size": 3,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "type": "esriSMS",
+              "style": "esriSMSCircle",
+              "outline": {
+                "color": [135, 206, 250, 255],
+                "width": 1,
+                "type": "esriSLS",
+                "style": "esriSLSSolid"
+              }
+            },
+            "label": "0 - 2",
+            "description": null,
+            "classMaxValue": 2
+          }, {
+            "symbol": {
+              "color": [100, 149, 237, 64],
+              "size": 7.5,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "type": "esriSMS",
+              "style": "esriSMSCircle",
+              "outline": {
+                "color": [135, 206, 250, 255],
+                "width": 1,
+                "type": "esriSLS",
+                "style": "esriSLSSolid"
+              }
+            },
+            "label": "2 - 8",
+            "description": null,
+            "classMaxValue": 8
+          }, {
+            "symbol": {
+              "color": [100, 149, 237, 64],
+              "size": 12,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "type": "esriSMS",
+              "style": "esriSMSCircle",
+              "outline": {
+                "color": [135, 206, 250, 255],
+                "width": 1,
+                "type": "esriSLS",
+                "style": "esriSLSSolid"
+              }
+            },
+            "label": "8 - 18",
+            "description": null,
+            "classMaxValue": 18
+          }, {
+            "symbol": {
+              "color": [100, 149, 237, 64],
+              "size": 16.5,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "type": "esriSMS",
+              "style": "esriSMSCircle",
+              "outline": {
+                "color": [135, 206, 250, 255],
+                "width": 1,
+                "type": "esriSLS",
+                "style": "esriSLSSolid"
+              }
+            },
+            "label": "18 - 32",
+            "description": null,
+            "classMaxValue": 32
+          }, {
+            "symbol": {
+              "color": [100, 149, 237, 64],
+              "size": 21,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "type": "esriSMS",
+              "style": "esriSMSCircle",
+              "outline": {
+                "color": [135, 206, 250, 255],
+                "width": 1,
+                "type": "esriSLS",
+                "style": "esriSLSSolid"
+              }
+            },
+            "label": "32 - 54",
+            "description": null,
+            "classMaxValue": 54
+          }]
+        }
+      },
+      "minScale": 18056,
+      "maxScale": 0
+    },
+    "popupInfo": {
+      "title": "Bike Parking",
+      "fieldInfos": [{
+        "fieldName": "FID",
+        "label": "FID",
+        "isEditable": false,
+        "tooltip": "",
+        "visible": false,
+        "format": {
+          "places": 0,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": false
+      }, {
+        "fieldName": "LOCATIONID",
+        "label": "LOCATIONID",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": false,
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }, {
+        "fieldName": "NUMSPACES",
+        "label": "NUMSPACES",
+        "isEditable": true,
+        "tooltip": "",
+        "visible": true,
+        "format": {
+          "places": 0,
+          "digitSeparator": true
+        },
+        "stringFieldOption": "textbox",
+        "isEditableOnLayer": true
+      }],
+      "description": null,
+      "showAttachments": true,
+      "mediaInfos": []
+    }
+  }, {
+    "layerType": "ArcGISFeatureLayer",
+    "id": "mapNotes_7477",
+    "title": "Map Notes",
+    "featureCollection": {
+      "layers": [{
+        "layerDefinition": {
+          "objectIdField": "OBJECTID",
+          "templates": [],
+          "type": "Feature Layer",
+          "drawingInfo": {
+            "renderer": {
+              "field1": "TYPEID",
+              "type": "uniqueValue",
+              "uniqueValueInfos": [{
+                "symbol": {
+                  "style": "esriSFSSolid",
+                  "color": [155, 187, 89, 128],
+                  "outline": {
+                    "style": "esriSLSSolid",
+                    "color": [115, 140, 61, 255],
+                    "width": 1.5,
+                    "type": "esriSLS"
+                  },
+                  "type": "esriSFS"
+                },
+                "description": "",
+                "value": "0",
+                "label": "Area"
+              }]
+            }
+          },
+          "displayField": "TITLE",
+          "visibilityField": "VISIBLE",
+          "name": "Areas",
+          "hasAttachments": false,
+          "typeIdField": "TYPEID",
+          "capabilities": "Query,Editing",
+          "types": [{
+            "id": 0,
+            "templates": [{
+              "drawingTool": "esriFeatureEditToolPolygon",
+              "description": "",
+              "name": "Area",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolTriangle",
+              "description": "",
+              "name": "Triangle",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolRectangle",
+              "description": "",
+              "name": "Rectangle",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolLeftArrow",
+              "description": "",
+              "name": "Left Arrow",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolRightArrow",
+              "description": "",
+              "name": "Right Arrow",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolEllipse",
+              "description": "",
+              "name": "Ellipse",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolUpArrow",
+              "description": "",
+              "name": "Up Arrow",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolDownArrow",
+              "description": "",
+              "name": "Down Arrow",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolCircle",
+              "description": "",
+              "name": "Circle",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolFreehand",
+              "description": "",
+              "name": "Freehand Area",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Area",
+                  "TYPEID": 0
+                }
+              }
+            }],
+            "domains": {},
+            "name": "Area"
+          }],
+          "geometryType": "esriGeometryPolygon",
+          "fields": [{
+            "alias": "OBJECTID",
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "editable": false
+          }, {
+            "alias": "Title",
+            "name": "TITLE",
+            "length": 50,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Visible",
+            "name": "VISIBLE",
+            "type": "esriFieldTypeInteger",
+            "editable": true
+          }, {
+            "alias": "Description",
+            "name": "DESCRIPTION",
+            "length": 1073741822,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Image URL",
+            "name": "IMAGE_URL",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Image Link URL",
+            "name": "IMAGE_LINK_URL",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "DATE",
+            "name": "DATE",
+            "length": 36,
+            "type": "esriFieldTypeDate",
+            "editable": true
+          }, {
+            "alias": "Type ID",
+            "name": "TYPEID",
+            "type": "esriFieldTypeInteger",
+            "editable": true
+          }],
+          "extent": null
+        },
+        "popupInfo": {
+          "mediaInfos": [{
+            "value": {
+              "sourceURL": "{IMAGE_URL}",
+              "linkURL": "{IMAGE_LINK_URL}"
+            },
+            "type": "image"
+          }],
+          "title": "{TITLE}",
+          "description": "{DESCRIPTION}"
+        },
+        "featureSet": {
+          "geometryType": "esriGeometryPolygon",
+          "features": []
+        },
+        "nextObjectId": 0
+      }, {
+        "layerDefinition": {
+          "objectIdField": "OBJECTID",
+          "templates": [],
+          "type": "Feature Layer",
+          "drawingInfo": {
+            "renderer": {
+              "field1": "TYPEID",
+              "type": "uniqueValue",
+              "uniqueValueInfos": [{
+                "symbol": {
+                  "style": "esriSLSSolid",
+                  "color": [115, 140, 61, 255],
+                  "width": 1.5,
+                  "type": "esriSLS"
+                },
+                "description": "",
+                "value": "0",
+                "label": "Line"
+              }]
+            }
+          },
+          "displayField": "TITLE",
+          "visibilityField": "VISIBLE",
+          "name": "Lines",
+          "hasAttachments": false,
+          "typeIdField": "TYPEID",
+          "capabilities": "Query,Editing",
+          "types": [{
+            "id": 0,
+            "templates": [{
+              "drawingTool": "esriFeatureEditToolLine",
+              "description": "",
+              "name": "Line",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Line",
+                  "TYPEID": 0
+                }
+              }
+            }, {
+              "drawingTool": "esriFeatureEditToolFreehand",
+              "description": "",
+              "name": "Freehand Line",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Line",
+                  "TYPEID": 0
+                }
+              }
+            }],
+            "domains": {},
+            "name": "Line"
+          }],
+          "geometryType": "esriGeometryPolyline",
+          "fields": [{
+            "alias": "OBJECTID",
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "editable": false
+          }, {
+            "alias": "Title",
+            "name": "TITLE",
+            "length": 50,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Visible",
+            "name": "VISIBLE",
+            "type": "esriFieldTypeInteger",
+            "editable": true
+          }, {
+            "alias": "Description",
+            "name": "DESCRIPTION",
+            "length": 1073741822,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Image URL",
+            "name": "IMAGE_URL",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Image Link URL",
+            "name": "IMAGE_LINK_URL",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "DATE",
+            "name": "DATE",
+            "length": 36,
+            "type": "esriFieldTypeDate",
+            "editable": true
+          }, {
+            "alias": "Type ID",
+            "name": "TYPEID",
+            "type": "esriFieldTypeInteger",
+            "editable": true
+          }],
+          "extent": null
+        },
+        "popupInfo": {
+          "mediaInfos": [{
+            "value": {
+              "sourceURL": "{IMAGE_URL}",
+              "linkURL": "{IMAGE_LINK_URL}"
+            },
+            "type": "image"
+          }],
+          "title": "{TITLE}",
+          "description": "{DESCRIPTION}"
+        },
+        "featureSet": {
+          "geometryType": "esriGeometryPolyline",
+          "features": []
+        },
+        "nextObjectId": 0
+      }, {
+        "layerDefinition": {
+          "objectIdField": "OBJECTID",
+          "templates": [],
+          "type": "Feature Layer",
+          "drawingInfo": {
+            "renderer": {
+              "field1": "TYPEID",
+              "type": "uniqueValue",
+              "uniqueValueInfos": [{
+                "symbol": {
+                  "horizontalAlignment": "left",
+                  "verticalAlignment": "baseline",
+                  "color": [0, 0, 0, 255],
+                  "font": {
+                    "weight": "bold",
+                    "style": "normal",
+                    "family": "Arial",
+                    "size": 12
+                  },
+                  "type": "esriTS"
+                },
+                "description": "",
+                "value": "0",
+                "label": "Text"
+              }]
+            }
+          },
+          "displayField": "TITLE",
+          "visibilityField": "VISIBLE",
+          "name": "Text",
+          "hasAttachments": false,
+          "typeIdField": "TYPEID",
+          "capabilities": "Query,Editing",
+          "types": [{
+            "id": 0,
+            "templates": [{
+              "drawingTool": "esriFeatureEditToolText",
+              "description": "",
+              "name": "Text",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TYPEID": 0
+                }
+              }
+            }],
+            "domains": {},
+            "name": "Text"
+          }],
+          "geometryType": "esriGeometryPoint",
+          "fields": [{
+            "alias": "OBJECTID",
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "editable": false
+          }, {
+            "alias": "Title",
+            "name": "TITLE",
+            "length": 50,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Visible",
+            "name": "VISIBLE",
+            "type": "esriFieldTypeInteger",
+            "editable": true
+          }, {
+            "alias": "Description",
+            "name": "DESCRIPTION",
+            "length": 1073741822,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Image URL",
+            "name": "IMAGE_URL",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Image Link URL",
+            "name": "IMAGE_LINK_URL",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "DATE",
+            "name": "DATE",
+            "length": 36,
+            "type": "esriFieldTypeDate",
+            "editable": true
+          }, {
+            "alias": "Type ID",
+            "name": "TYPEID",
+            "type": "esriFieldTypeInteger",
+            "editable": true
+          }, {
+            "alias": "Text",
+            "name": "TEXT",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }],
+          "extent": {
+            "type": "extent",
+            "xmin": -1.36682740001E7,
+            "ymin": 5732553.9999,
+            "xmax": -1.36682739999E7,
+            "ymax": 5732554.0001,
+            "spatialReference": {
+              "wkid": 102100,
+              "latestWkid": 3857
+            },
+            "_shifted": null,
+            "_parts": null
+          }
+        },
+        "featureSet": {
+          "geometryType": "esriGeometryPoint",
+          "features": [{
+            "geometry": {
+              "x": -13668274,
+              "y": 5732554,
+              "spatialReference": {
+                "wkid": 102100,
+                "latestWkid": 3857
+              }
+            },
+            "attributes": {
+              "VISIBLE": 1,
+              "TYPEID": 0,
+              "OBJECTID": 0
+            },
+            "symbol": {
+              "color": [211, 211, 211, 255],
+              "type": "esriTS",
+              "verticalAlignment": "baseline",
+              "horizontalAlignment": "left",
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0,
+              "text": "Portland Bike Map",
+              "rotated": false,
+              "kerning": true,
+              "font": {
+                "size": 12,
+                "style": "normal",
+                "weight": "bold",
+                "family": "Arial"
+              }
+            }
+          }]
+        },
+        "nextObjectId": 1
+      }, {
+        "layerDefinition": {
+          "objectIdField": "OBJECTID",
+          "templates": [],
+          "type": "Feature Layer",
+          "drawingInfo": {
+            "renderer": {
+              "field1": "TYPEID",
+              "type": "uniqueValue",
+              "uniqueValueInfos": [{
+                "symbol": {
+                  "height": 24,
+                  "xoffset": 0,
+                  "yoffset": 12,
+                  "width": 24,
+                  "contentType": "image/png",
+                  "type": "esriPMS",
+                  "url": "http://static.arcgis.com/images/Symbols/Basic/GreenStickpin.png"
+                },
+                "description": "",
+                "value": "0",
+                "label": "Stickpin"
+              }, {
+                "symbol": {
+                  "height": 24,
+                  "xoffset": 2,
+                  "yoffset": 8,
+                  "width": 24,
+                  "contentType": "image/png",
+                  "type": "esriPMS",
+                  "url": "http://static.arcgis.com/images/Symbols/Basic/GreenShinyPin.png"
+                },
+                "value": "1",
+                "label": "Pushpin"
+              }, {
+                "symbol": {
+                  "style": "esriSMSCross",
+                  "color": [155, 187, 89, 128],
+                  "outline": {
+                    "style": "esriSLSSolid",
+                    "color": [115, 140, 61, 255],
+                    "width": 1,
+                    "type": "esriSLS"
+                  },
+                  "type": "esriSMS",
+                  "size": 18
+                },
+                "value": "2",
+                "label": "Cross"
+              }]
+            }
+          },
+          "displayField": "TITLE",
+          "visibilityField": "VISIBLE",
+          "name": "Points",
+          "hasAttachments": false,
+          "typeIdField": "TYPEID",
+          "capabilities": "Query,Editing",
+          "types": [{
+            "id": 0,
+            "templates": [{
+              "drawingTool": "esriFeatureEditToolPoint",
+              "description": "",
+              "name": "Stickpin",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Point",
+                  "TYPEID": 0
+                }
+              }
+            }],
+            "domains": {},
+            "name": "Stickpin"
+          }, {
+            "id": 1,
+            "templates": [{
+              "drawingTool": "esriFeatureEditToolPoint",
+              "description": "",
+              "name": "Pushpin",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Point",
+                  "TYPEID": 1
+                }
+              }
+            }],
+            "domains": {},
+            "name": "Pushpin"
+          }, {
+            "id": 2,
+            "templates": [{
+              "drawingTool": "esriFeatureEditToolPoint",
+              "description": "",
+              "name": "Cross",
+              "prototype": {
+                "attributes": {
+                  "VISIBLE": 1,
+                  "TITLE": "Point",
+                  "TYPEID": 2
+                }
+              }
+            }],
+            "domains": {},
+            "name": "Cross"
+          }],
+          "geometryType": "esriGeometryPoint",
+          "fields": [{
+            "alias": "OBJECTID",
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "editable": false
+          }, {
+            "alias": "Title",
+            "name": "TITLE",
+            "length": 50,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Visible",
+            "name": "VISIBLE",
+            "type": "esriFieldTypeInteger",
+            "editable": true
+          }, {
+            "alias": "Description",
+            "name": "DESCRIPTION",
+            "length": 1073741822,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Image URL",
+            "name": "IMAGE_URL",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "Image Link URL",
+            "name": "IMAGE_LINK_URL",
+            "length": 255,
+            "type": "esriFieldTypeString",
+            "editable": true
+          }, {
+            "alias": "DATE",
+            "name": "DATE",
+            "length": 36,
+            "type": "esriFieldTypeDate",
+            "editable": true
+          }, {
+            "alias": "Type ID",
+            "name": "TYPEID",
+            "type": "esriFieldTypeInteger",
+            "editable": true
+          }],
+          "extent": null
+        },
+        "popupInfo": {
+          "mediaInfos": [{
+            "value": {
+              "sourceURL": "{IMAGE_URL}",
+              "linkURL": "{IMAGE_LINK_URL}"
+            },
+            "type": "image"
+          }],
+          "title": "{TITLE}",
+          "description": "{DESCRIPTION}"
+        },
+        "featureSet": {
+          "geometryType": "esriGeometryPoint",
+          "features": []
+        },
+        "nextObjectId": 0
+      }],
+      "showLegend": false
+    },
+    "opacity": 1,
+    "visibility": true
+  }],
+  "baseMap": {
+    "baseMapLayers": [{
+      "id": "layer0",
+      "layerType": "ArcGISTiledMapServiceLayer",
+      "opacity": 1,
+      "visibility": true,
+      "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"
+    }, {
+      "id": "World_Dark_Gray_Reference_7086",
+      "layerType": "ArcGISTiledMapServiceLayer",
+      "isReference": true,
+      "opacity": 1,
+      "visibility": true,
+      "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Reference/MapServer"
+    }],
+    "title": "Dark Gray Canvas"
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "version": "2.0",
+  "runningAnalysisJobs": [],
+  "applicationProperties": {
+    "viewing": {
+      "routing": {
+        "enabled": true
+      },
+      "measure": {
+        "enabled": true
+      },
+      "basemapGallery": {
+        "enabled": true
+      },
+      "search": {
+        "enabled": true,
+        "disablePlaceFinder": false,
+        "hintText": "Place or Address",
+        "layers": []
+      }
+    }
+  }
+}

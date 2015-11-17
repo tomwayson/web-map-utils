@@ -1,0 +1,160 @@
+{
+  "operationalLayers": [{
+    "id": "Census_2835",
+    "layerType": "ArcGISMapServiceLayer",
+    "url": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer",
+    "visibility": true,
+    "opacity": 1,
+    "title": "Census",
+    "layers": [{
+      "id": 0,
+      "layerDefinition": {
+        "source": {
+          "type": "mapLayer",
+          "mapLayerId": 0
+        }
+      },
+      "name": "Census Block Points",
+      "minScale": 99999.99998945338,
+      "maxScale": 0,
+      "parentLayerId": -1,
+      "defaultVisibility": true
+    }, {
+      "id": 1,
+      "layerDefinition": {
+        "source": {
+          "type": "mapLayer",
+          "mapLayerId": 1
+        }
+      },
+      "name": "Census Block Group",
+      "minScale": 1000000,
+      "maxScale": 0,
+      "parentLayerId": -1,
+      "defaultVisibility": true
+    }, {
+      "id": 2,
+      "layerDefinition": {
+        "source": {
+          "type": "mapLayer",
+          "mapLayerId": 2
+        },
+        "drawingInfo": {
+          "renderer": {
+            "type": "classBreaks",
+            "field": "AVE_HH_SZ",
+            "minValue": -99,
+            "classBreakInfos": [{
+              "symbol": {
+                "color": [239, 243, 255, 128],
+                "outline": {
+                  "color": [128, 128, 128, 255],
+                  "width": 0.75,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                },
+                "type": "esriSFS",
+                "style": "esriSFSSolid"
+              },
+              "label": "-99.000000",
+              "description": null,
+              "classMaxValue": -99
+            }, {
+              "symbol": {
+                "color": [173, 209, 235, 128],
+                "outline": {
+                  "color": [128, 128, 128, 255],
+                  "width": 0.75,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                },
+                "type": "esriSFS",
+                "style": "esriSFSSolid"
+              },
+              "label": "-98.999999 - 2.460000",
+              "description": null,
+              "classMaxValue": 2.46
+            }, {
+              "symbol": {
+                "color": [107, 174, 214, 128],
+                "outline": {
+                  "color": [128, 128, 128, 255],
+                  "width": 0.75,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                },
+                "type": "esriSFS",
+                "style": "esriSFSSolid"
+              },
+              "label": "2.460001 - 2.670000",
+              "description": null,
+              "classMaxValue": 2.67
+            }, {
+              "symbol": {
+                "color": [58, 128, 185, 128],
+                "outline": {
+                  "color": [128, 128, 128, 255],
+                  "width": 0.75,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                },
+                "type": "esriSFS",
+                "style": "esriSFSSolid"
+              },
+              "label": "2.670001 - 3.060000",
+              "description": null,
+              "classMaxValue": 3.06
+            }, {
+              "symbol": {
+                "color": [8, 81, 156, 128],
+                "outline": {
+                  "color": [128, 128, 128, 255],
+                  "width": 0.75,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                },
+                "type": "esriSFS",
+                "style": "esriSFSSolid"
+              },
+              "label": "3.060001 - 4.380000",
+              "description": null,
+              "classMaxValue": 4.38
+            }]
+          }
+        }
+      },
+      "name": "Detailed Counties",
+      "minScale": 0,
+      "maxScale": 0,
+      "parentLayerId": -1,
+      "defaultVisibility": true
+    }, {
+      "id": 3,
+      "layerDefinition": {
+        "source": {
+          "type": "mapLayer",
+          "mapLayerId": 3
+        }
+      },
+      "name": "states",
+      "minScale": 0,
+      "maxScale": 0,
+      "parentLayerId": -1,
+      "defaultVisibility": true
+    }]
+  }],
+  "baseMap": {
+    "baseMapLayers": [{
+      "id": "defaultBasemap",
+      "layerType": "ArcGISTiledMapServiceLayer",
+      "opacity": 1,
+      "visibility": true,
+      "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"
+    }],
+    "title": "Topographic"
+  },
+  "spatialReference": {
+    "wkid": 102100
+  },
+  "version": "2.0"
+}

@@ -1,0 +1,96 @@
+{
+  "item": {
+    "id": "b5c66848aecc4288a86ded8b729eb3e4",
+    "owner": "pod_user",
+    "created": 1422996660579,
+    "modified": 1432674650579,
+    "guid": null,
+    "name": null,
+    "title": "Watershed",
+    "type": "Web Map",
+    "typeKeywords": ["ArcGIS Online", "Derek", "Explorer Web Map", "Map", "Online Map", "Web Map"],
+    "description": null,
+    "tags": ["cereal"],
+    "snippet": "Watershed",
+    "thumbnail": null,
+    "documentation": null,
+    "extent": [
+      [-160.14, 0.9348],
+      [-30.3256, 63.1796]
+    ],
+    "spatialReference": null,
+    "accessInformation": null,
+    "licenseInfo": null,
+    "culture": "en-us",
+    "properties": null,
+    "url": null,
+    "access": "public",
+    "size": 2422,
+    "appCategories": [],
+    "industries": [],
+    "languages": [],
+    "largeThumbnail": null,
+    "banner": null,
+    "screenshots": [],
+    "listed": false,
+    "commentsEnabled": true,
+    "numComments": 0,
+    "numRatings": 0,
+    "avgRating": 0,
+    "numViews": 727
+  },
+  "itemData": {
+    "operationalLayers": [{
+      "id": "graphicsLayer0",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer/2",
+      "visibility": true,
+      "opacity": 1,
+      "title": "States",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "label": "",
+            "description": "",
+            "symbol": {
+              "color": [0, 0, 0, 0],
+              "outline": {
+                "color": [0, 0, 0, 255],
+                "width": 1,
+                "type": "esriSLS",
+                "style": "esriSLSSolid"
+              },
+              "type": "esriSFS",
+              "style": "esriSFSSolid"
+            }
+          }
+        }
+      },
+      "showLabels": true
+    }, {
+      "id": "wbd",
+      "layerType": "ArcGISMapServiceLayer",
+      "url": "http://ngmc.esri.com:6080/arcgis/rest/services/NRCS_POD/WBDedited/MapServer",
+      "visibility": true,
+      "visibleLayers": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "opacity": 1,
+      "title": "wbd"
+    }],
+    "baseMap": {
+      "baseMapLayers": [{
+        "id": "World_Street_Map_8421",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "opacity": 1,
+        "visibility": true,
+        "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer"
+      }],
+      "title": "Streets"
+    },
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    },
+    "version": "2.0"
+  }
+}

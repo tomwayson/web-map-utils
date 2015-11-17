@@ -1,0 +1,62 @@
+{
+  "item": {
+    "title":"Test Dynamic Layer w/o Symbol",
+    "snippet": "Test serializing a web map w/ a dynamic layer w/o any symbol",
+    "extent": [[-139.4916, 10.7191],[-52.392, 59.5199]]
+  },
+  "itemData": {
+    "operationalLayers": [{
+      "id": "ServiceAreas_6576",
+      "layerType": "ArcGISMapServiceLayer",
+      "url": "http://ngmc.esri.com/arcgis/rest/services/NRCS_POD/ServiceAreas/MapServer",
+      "visibility": true,
+      "opacity": 1,
+      "title": "ServiceAreas",
+      "layers": [{
+        "id": 0,
+        "layerDefinition": {
+          "source": {
+            "type": "mapLayer",
+            "mapLayerId": 0
+          },
+          "drawingInfo": {
+            "renderer": {
+              "type": "simple",
+              "symbol": {
+                "color": [0, 0, 0, 0],
+                "outline": {
+                  "color": [255, 0, 0, 255],
+                  "width": 1.5,
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid"
+                },
+                "type": "esriSFS",
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        },
+        "name": "SCA_2015",
+        "minScale": 25000000,
+        "maxScale": 70000,
+        "parentLayerId": -1,
+        "defaultVisibility": true
+      }]
+    }],
+    "baseMap": {
+      "baseMapLayers": [{
+        "id": "defaultBasemap",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "opacity": 1,
+        "visibility": true,
+        "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"
+      }],
+      "title": "Topographic"
+    },
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    },
+    "version": "2.0"
+  }
+}
