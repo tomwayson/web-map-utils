@@ -1,6 +1,6 @@
-# portal-utils
+# web-map-utils
 
-A JavaScript library to help with portal/ArcGIS Online tasks not handled by the JSAPI (such as serializing a map object to a web map).
+A JavaScript library to help with web map tasks that are not handled by the JSAPI (such as serializing a map object to a web map).
 
 ### Development Instructions
 
